@@ -72,7 +72,7 @@
 2	jovem	jovem	NOUN	<n>|<first-cjt>|ADJ|M|S|@>N	Gender=Masc|Number=Sing	11	amod	_	_
 3	(	(	PUNCT	PU|@PU	_	5	punct	_	ChangedBy=Issue165|SpaceAfter=No
 4	34	34	NUM	<card>|NUM|M|P|@>N	NumType=Card	5	nummod	_	ChangedBy=Issue168
-5	anos	ano	NOUN	<first-cjt>|<np-def>|N|M|P|@A<	Gender=Masc|Number=Plur	2	parataxis	_	ChangedBy=Issue165|SpaceAfter=No
+5	anos	ano	NOUN	<first-cjt>|<np-def>|N|M|P|@A<	Gender=Masc|Number=Plur	2	appos:parataxis	_	ChangedBy=Issue165|SpaceAfter=No
 6	)	)	PUNCT	PU|@PU	_	5	punct	_	ChangedBy=Issue165|SpaceAfter=No
 7	,	,	PUNCT	PU|@PU	_	8	punct	_	d2d:#106
 8	talentoso	talentoso	ADJ	<cjt>|ADJ|M|S|@>N	Gender=Masc|Number=Sing	2	conj	_	_
@@ -88,7 +88,7 @@
 # source = CETENFolha n=161 cad=Ilustrada sec=nd sem=94b
 # id = 673
 1	A	o	DET	<artd>|ART|F|S|@>N	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	_
-2	fanfarra	fanfarra	NOUN	<np-def>|N|F|S|@SUBJ>	Gender=Fem|Number=Sing	20	nsubj	_	_
+2	fanfarra	fanfarra	NOUN	<np-def>|N|F|S|@SUBJ>	Gender=Fem|Number=Sing	22	nsubj	_	_
 3	que	que	PRON	<rel>|INDP|F|S|@SUBJ>	Gender=Fem|Number=Sing|PronType=Rel	6	nsubj	_	_
 4	a	a	SCONJ	PRP|@ADVL>	_	5	mark	_	_
 5	seguir	seguir	VERB	<mv>|V|INF|@ICL-P<	VerbForm=Inf	6	advcl	_	_

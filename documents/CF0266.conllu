@@ -42,7 +42,7 @@
 33	as	o	DET	<-sam>|<artd>|ART|F|P|@>N	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	34	det	_	_
 34	gerações	geração	NOUN	<np-def>|N|F|P|@P<	Gender=Fem|Number=Plur	31	obl:agent	_	_
 35	precedentes	precedente	ADJ	ADJ|F|P|@N<	Gender=Fem|Number=Plur	34	amod	_	ChangedBy=Issue165|SpaceAfter=No
-36	:	:	PUNCT	PU|@PU	_	37	punct	_	_
+36	:	:	PUNCT	PU|@PU	_	16	punct	_	_
 37	garantir	garantir	VERB	<mv>|V|INF|@ICL-N<PRED	VerbForm=Inf	19	acl	_	_
 38	a	a	ADP	PRP|@<PIV	_	40	case	_	_
 39	seus	seu	DET	<poss>|<si>|DET|M|P|@>N	Gender=Masc|Number=Plur|PronType=Prs	40	det	_	_
@@ -159,7 +159,7 @@
 3	DE	DE	PROPN	PROP|@N<	Number=Sing	1	flat:name	_	_
 4	ALENCASTRO	ALENCASTRO	PROPN	PROP|@N<	Number=Sing	1	flat:name	_	ChangedBy=Issue165|SpaceAfter=No
 5	,	,	PUNCT	PU|@PU	_	6	punct	_	_
-6	48	48	NUM	<card>|NUM|M|P|@N<PRED	NumType=Card	1	parataxis	_	ChangedBy=Issue165|ChangedBy=Issue168|SpaceAfter=No
+6	48	48	NUM	<card>|NUM|M|P|@N<PRED	NumType=Card	1	appos:parataxis	_	ChangedBy=Issue165|ChangedBy=Issue168|SpaceAfter=No
 7	,	,	PUNCT	PU|@PU	_	6	punct	_	_
 8	historiador	historiador	NOUN	<np-idf>|N|M|S|@N<PRED	Gender=Masc|Number=Sing	1	appos	_	ChangedBy=Issue165|SpaceAfter=No
 9	,	,	PUNCT	PU|@PU	_	6	punct	_	_

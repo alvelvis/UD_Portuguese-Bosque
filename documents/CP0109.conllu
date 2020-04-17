@@ -9,7 +9,7 @@
 # source = CETEMPúblico n=109 sec=soc sem=98b
 # id = 563
 1	«	«	PUNCT	PU|@PU	_	2	punct	_	ChangedBy=Issue165|SpaceAfter=No
-2	Duas	Duas	PROPN	_	Gender=Masc|Number=Sing	47	nsubj:pass	_	ChangedBy=Issue119|MWE=Duas_Viagens|MWEPOS=PROPN
+2	Duas	Duas	PROPN	_	Gender=Masc|Number=Sing	49	nsubj:pass	_	ChangedBy=Issue119|MWE=Duas_Viagens|MWEPOS=PROPN
 3	Viagens	Viagens	PROPN	_	Number=Sing	2	flat:name	_	ChangedBy=Issue119|ChangedBy=Issue165|SpaceAfter=No
 4	»	»	PUNCT	PU|@PU	_	2	punct	_	ChangedBy=Issue165|SpaceAfter=No
 5	,	,	PUNCT	PU|@PU	_	7	punct	_	_
@@ -53,7 +53,7 @@
 40	»	»	PUNCT	PU|@PU	_	35	punct	_	ChangedBy=Issue165|SpaceAfter=No
 41	,	,	PUNCT	PU|@PU	_	43	punct	_	_
 42	de	de	ADP	PRP|@N<PRED	_	43	case	_	_
-43	João	João	PROPN	_	Gender=Masc|Number=Sing	33	nmod	_	ChangedBy=Issue119|MWE=João_Mário_Grilo|MWEPOS=PROPN
+43	João	João	PROPN	_	Gender=Masc|Number=Sing	33	appos:parataxis	_	ChangedBy=Issue119|MWE=João_Mário_Grilo|MWEPOS=PROPN
 44	Mário	Mário	PROPN	_	Number=Sing	43	flat:name	_	ChangedBy=Issue119
 45	Grilo	Grilo	PROPN	_	Number=Sing	43	flat:name	_	ChangedBy=Issue119|ChangedBy=Issue165|SpaceAfter=No
 46	,	,	PUNCT	PU|@PU	_	43	punct	_	_
@@ -114,7 +114,7 @@
 29	a	o	DET	<-sam>|<artd>|ART|@>N	Definite=Def|PronType=Art	30	det	_	_
 30	artista	artista	NOUN	<np-def>|N|F|S|@P<	Gender=Fem|Number=Sing	27	obl:agent	_	_
 31	e	e	CCONJ	<co-fcl>|<co-vfin>|KC|@CO	_	35	cc	_	d2d:#106
-32	que	que	PRON	<rel>|INDP|F|S|@SUBJ>	Gender=Fem|Number=Sing|PronType=Rel	33	nsubj:pass	_	_
+32	que	que	PRON	<rel>|INDP|F|S|@SUBJ>	Gender=Fem|Number=Sing|PronType=Rel	35	nsubj:pass	_	_
 33	pode	poder	VERB	<cjt>|<aux>|V|PR|3S|IND|@FS-N<PRED	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	_	_
 34	ser	ser	AUX	<aux>|V|INF|@ICL-AUX<	VerbForm=Inf	35	aux:pass	_	_
 35	apreciada	apreciar	VERB	<pass>|<mv>|V|PCP|F|S|@ICL-AUX<	Gender=Fem|Number=Sing|VerbForm=Part|Voice=Pass	33	xcomp	_	ChangedBy=Issue165|SpaceAfter=No
@@ -140,7 +140,7 @@
 52	a	o	DET	<artd>|<-sam>|DET|F|S|@>N	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	53	det	_	_
 53	Rocha	Rocha	PROPN	PROP|@P<	Number=Sing	49	flat:name	_	ChangedBy=Issue165|SpaceAfter=No
 54	,	,	PUNCT	PU|@PU	_	55	punct	_	_
-55	16	16	NUM	<card>|NUM|M|S|@N<PRED	NumType=Card	49	parataxis	_	ChangedBy=Issue165|ChangedBy=Issue168|SpaceAfter=No
+55	16	16	NUM	<card>|NUM|M|S|@N<PRED	NumType=Card	49	appos:parataxis	_	ChangedBy=Issue165|ChangedBy=Issue168|SpaceAfter=No
 56	)	)	PUNCT	PU|@PU	_	49	punct	_	ChangedBy=Issue165|SpaceAfter=No
 57	,	,	PUNCT	PU|@PU	_	55	punct	_	_
 58	em	em	ADP	PRP|@N<PRED	_	59	case	_	_

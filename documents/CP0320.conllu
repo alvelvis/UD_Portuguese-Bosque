@@ -47,13 +47,13 @@
 # sent_id = CP320-2
 # source = CETEMPúblico n=320 sec=nd sem=91a
 # id = 1686
-1	Bonecos	boneco	NOUN	<first-cjt>|<np-idf>|N|M|P|@SUBJ>	Gender=Masc|Number=Plur	7	nsubj:pass	_	_
+1	Bonecos	boneco	NOUN	<first-cjt>|<np-idf>|N|M|P|@SUBJ>	Gender=Masc|Number=Plur	7	nsubj	_	_
 2	e	e	CCONJ	<co-subj>|KC|@CO	_	3	cc	_	d2d:#106
 3	bonecreiros	bonecreiro	NOUN	<cjt>|<np-idf>|N|M|P|@SUBJ>	Gender=Masc|Number=Plur	1	conj	_	_
-4	foram	ser	AUX	<first-cjt>|<aux>|V|PS|3P|IND|@FS-STA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	_	_
+4	foram	ser	AUX	<first-cjt>|<aux>|V|PS|3P|IND|@FS-STA	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	_
 5	desde	desde	ADP	PRP|@ADVL>	_	6	case	_	_
 6	sempre	sempre	ADV	ADV|@P<	_	7	advmod	_	_
-7	perseguidos	perseguir	VERB	<first-cjt>|<mv>|V|PCP|M|P|@ICL-AUX<	Gender=Masc|Number=Plur|VerbForm=Part|Voice=Pass	0	root	_	_
+7	perseguidos	perseguir	VERB	<first-cjt>|<mv>|V|PCP|M|P|@ICL-AUX<	Gender=Masc|Number=Plur|VerbForm=Part	0	root	_	_
 8	e	e	CCONJ	<co-pcv>|KC|@CO	_	9	cc	_	d2d:#106
 9	interditados	interditar	VERB	<cjt>|<mv>|V|PCP|M|P|@ICL-AUX<	Gender=Masc|Number=Plur|VerbForm=Part	7	conj	_	ChangedBy=Issue165|SpaceAfter=No
 10	,	,	PUNCT	PU|@PU	_	13	punct	_	d2d:#106
@@ -167,7 +167,7 @@
 34	Marioneta	Marioneta	PROPN	PROP|@P<	Number=Sing	31	nmod	_	ChangedBy=Issue165|SpaceAfter=No
 35	,	,	PUNCT	PU|@PU	_	37	punct	_	_
 36	em	em	ADP	PRP|@N<PRED	_	37	case	_	_
-37	Lisboa	Lisboa	PROPN	PROP|F|S|@P<	Gender=Fem|Number=Sing	31	nmod	_	ChangedBy=Issue165|SpaceAfter=No
+37	Lisboa	Lisboa	PROPN	PROP|F|S|@P<	Gender=Fem|Number=Sing	31	appos:parataxis	_	ChangedBy=Issue165|SpaceAfter=No
 38	.	.	PUNCT	PU|@PU	_	6	punct	_	_
 
 # text = Um par de presenças enlutadas fazem aqui as vezes de personagens das trevas, no meio de uma vitrina de bordados barrocos, azuis debruados e rendas de brilho transparente: os personagens das peças «Vida do Glorioso D. Quixote de La Mancha e do Gordo Sancho Pança» e «Guerras do Alecrim e da Manjerona».

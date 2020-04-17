@@ -2,7 +2,7 @@
 # sent_id = CF290-1
 # source = CETENFolha n=290 cad=Informática sec=com sem=94b
 # id = 1214
-1	Usuário	usuário	NOUN	<np-idf>|N|M|S|@SUBJ>	Gender=Masc|Number=Sing	4	nsubj	_	_
+1	Usuário	usuário	NOUN	<np-idf>|N|M|S|@SUBJ>	Gender=Masc|Number=Sing	6	nsubj	_	_
 2	de	de	ADP	PRP|@N<	_	3	case	_	_
 3	BBS	BBS	PROPN	PROP|M|P|@P<	Gender=Masc|Number=Plur	1	nmod	_	_
 4	pode	poder	VERB	<aux>|V|PR|3S|IND|@FS-STA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
@@ -35,7 +35,7 @@
 14	os	o	DET	<-sam>|<artd>|ART|M|P|@>N	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	16	det	_	_
 15	seus	seu	DET	<poss>|<si>|DET|M|P|@>N	Gender=Masc|Number=Plur|PronType=Prs	16	det	_	_
 16	usuários	usuário	NOUN	<np-def>|N|M|P|@P<	Gender=Masc|Number=Plur	9	iobj	_	ChangedBy=Issue165|SpaceAfter=No
-17	:	:	PUNCT	PU|@PU	_	19	punct	_	_
+17	:	:	PUNCT	PU|@PU	_	9	punct	_	_
 18	a	o	DET	<artd>|ART|F|S|@>N	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	conexão	conexão	NOUN	<np-def>|N|F|S|@N<PRED	Gender=Fem|Number=Sing	16	appos	_	_
 20	com	com	ADP	PRP|@N<	_	22	case	_	_
@@ -93,9 +93,9 @@
 35	,	,	PUNCT	PU|@PU	_	36	punct	_	_
 36	contando	contar	VERB	<mv>|V|GER|@ICL-<ADVL	VerbForm=Ger	27	advcl	_	_
 37	com	com	ADP	PRP|@<PIV	_	38	case	_	_
-38	milhões	milhão	NUM	<np-idf>|N|M|P|@P<	Gender=Masc|Number=Plur	40	nummod	_	_
+38	milhões	milhão	NOUN	<np-idf>|N|M|P|@P<	Gender=Masc|Number=Plur	36	obj	_	_
 39	de	de	ADP	PRP|@N<ARG	_	40	case	_	_
-40	usuários	usuário	NOUN	<np-idf>|N|M|P|@P<	Gender=Masc|Number=Plur	36	obj	_	_
+40	usuários	usuário	NOUN	<np-idf>|N|M|P|@P<	Gender=Masc|Number=Plur	38	nmod	_	_
 41	espalhados	espalhar	VERB	<mv>|V|PCP|M|P|@ICL-N<	Gender=Masc|Number=Plur|VerbForm=Part	40	acl	_	_
 42	por	por	ADP	PRP|@<ADVL	_	44	case	_	_
 43	várias	várias	DET	<quant>|DET|F|P|@>N	Gender=Fem|Number=Plur|PronType=Ind	44	det	_	_

@@ -31,7 +31,7 @@
 1	Ex-primeiro-ministro	ex-primeiro-ministro	NOUN	<first-cjt>|<np-idf>|N|M|S|@PRED>	Gender=Masc|Number=Sing	34	nmod	_	ChangedBy=Issue165|SpaceAfter=No
 2	,	,	PUNCT	PU|@PU	_	5	punct	_	d2d:#106
 3	de	de	ADP	<first-cjt>|PRP|@N<PRED	_	4	case	_	_
-4	1974	1974	NUM	<year>|<first-cjt>|<date>|NUM|M|S|@P<	NumType=Card	1	nmod	_	ChangedBy=Issue168
+4	1974	1974	NUM	<year>|<first-cjt>|<date>|NUM|M|S|@P<	NumType=Card	1	appos:parataxis	_	ChangedBy=Issue168
 5	a	a	ADP	PRP|@A<	_	6	case	_	_
 6	1978	1978	NUM	<year>|<date>|NUM|M|S|@P<	NumType=Card	4	conj	_	ChangedBy=Issue165|ChangedBy=Issue168|SpaceAfter=No
 7	,	,	PUNCT	PU|@PU	_	5	punct	_	d2d:#106
@@ -202,7 +202,7 @@
 39	que	que	SCONJ	KS|@SUB	_	42	mark	_	_
 40	esta	este	PRON	<dem>|DET|F|S|@SUBJ>	Gender=Fem|Number=Sing|PronType=Dem	42	nsubj	_	_
 41	se	se	PRON	PERS|F|3S|ACC|@ACC>-PASS	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	42	expl	_	ChangedBy=Issue135
-42	dotasse	dotar	VERB	<cjt>|<mv>|<se-passive>|V|IMPF|3S|SUBJ|@FS-P<	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	ccomp	_	_
+42	dotasse	dotar	VERB	<cjt>|<mv>|<se-passive>|V|IMPF|3S|SUBJ|@FS-P<	Mood=Sub|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	37	xcomp	_	_
 43	de	de	ADP	PRP|@<PIV	_	46	case	_	_
 44	uma	um	DET	<arti>|ART|F|S|@>N	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	46	det	_	_
 45	verdadeira	verdadeiro	ADJ	ADJ|F|S|@>N	Gender=Fem|Number=Sing	46	amod	_	_

@@ -174,7 +174,7 @@
 5	bairro	bairro	NOUN	<np-idf>|N|M|S|@P<	Gender=Masc|Number=Sing	2	obj	_	_
 6	muito	muito	ADV	<quant>|ADV|@>A	_	7	advmod	_	_
 7	pobre	pobre	ADJ	ADJ|M|S|@N<	Gender=Masc|Number=Sing	5	amod	_	ChangedBy=Issue165|SpaceAfter=No
-8	,	,	PUNCT	PU|@PU	_	10	punct	_	_
+8	,	,	PUNCT	PU|@PU	_	12	punct	_	_
 9	muito	muito	ADV	<quant>|ADV|@>A	_	10	advmod	_	_
 10	pobre	pobre	ADJ	ADJ|M|S|@N<PRED	Gender=Masc|Number=Sing	5	amod	_	_
 11	de	de	ADP	PRP|@N<PRED	_	12	case	_	_
@@ -186,7 +186,7 @@
 # sent_id = CF467-14
 # source = CETENFolha n=467 cad=Revista Folha sec=nd sem=94a
 # id = 1977
-1	Você	você	PRON	PERS|M/F|3S|NOM|@SUBJ>	Case=Nom|Gender=Unsp|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+1	Você	você	PRON	PERS|M/F|3S|NOM|@SUBJ>	Case=Nom|Gender=Unsp|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	não	não	ADV	_	Polarity=Neg	4	advmod	_	_
 3	pode	poder	VERB	<aux>|V|PR|3S|IND|@FS-STA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 4	imaginar	imaginar	VERB	<mv>|V|INF|@ICL-AUX<	VerbForm=Inf	3	xcomp	_	_
@@ -209,9 +209,9 @@
 5	as	o	DET	<-sam>|<artd>|ART|F|P|@>N	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	_
 6	ruas	rua	NOUN	<first-cjt>|<np-def>|N|F|P|@P<	Gender=Fem|Number=Plur	3	iobj	_	_
 7	e	e	CCONJ	<co-sta>|KC|@CO	_	10	cc	_	d2d:#106
-8	comecei	começar	VERB	<cjt>|<aux>|V|PS|1S|IND|@FS-STA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	conj	_	MWE=comecei_a|MWEPOS=AUX
-9	a	a	SCONJ	PRP|@PRT-AUX<	_	10	mark	_	_
-10	estudar	estudar	VERB	<mv>|V|INF|@ICL-AUX<	VerbForm=Inf	8	xcomp	_	ChangedBy=Issue165|SpaceAfter=No
+8	comecei	começar	AUX	<cjt>|<aux>|V|PS|1S|IND|@FS-STA	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	aux	_	MWE=comecei_a|MWEPOS=AUX
+9	a	a	ADP	PRP|@PRT-AUX<	_	8	compound	_	_
+10	estudar	estudar	VERB	<mv>|V|INF|@ICL-AUX<	VerbForm=Inf	3	conj	_	ChangedBy=Issue165|SpaceAfter=No
 11	.	.	PUNCT	PU|@PU	_	3	punct	_	_
 
 # text = Aprendi a falar direito e tentei fazer minha vida melhor para mim.

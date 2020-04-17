@@ -83,7 +83,7 @@
 21	poderão	poder	VERB	<aux>|V|FUT|3P|IND|@FS-N<	Mood=Ind|Number=Plur|Person=3|Tense=Fut|VerbForm=Fin	19	acl:relcl	_	_
 22	tomar	tomar	VERB	<mv>|V|INF|@ICL-AUX<	VerbForm=Inf	21	xcomp	_	_
 23	os	o	DET	<artd>|ART|M|P|@>N	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	24	det	_	_
-24	pontos	ponto	NOUN	<np-def>|N|M|P|@<SUBJ	Gender=Masc|Number=Plur	21	nsubj	_	_
+24	pontos	ponto	NOUN	<np-def>|N|M|P|@<SUBJ	Gender=Masc|Number=Plur	22	nsubj	_	_
 25	fundamentais	fundamental	ADJ	ADJ|M|P|@N<	Gender=Masc|Number=Plur	24	amod	_	_
 26-27	do	_	_	_	_	_	_	_	_
 26	de	de	ADP	<sam->|PRP|@N<	_	28	case	_	_
@@ -190,10 +190,10 @@
 8	em	em	ADP	PRP|@<PIV	_	9	case	_	_
 9	cruzeiros	cruzeiro	NOUN	<np-idf>|N|M|P|@P<	Gender=Masc|Number=Plur	7	obj	_	_
 10	reais	real	ADJ	ADJ|M|P|@N<	Gender=Masc|Number=Plur	9	amod	_	_
-11	continua	continuar	VERB	<aux>|V|PR|3S|IND|@FS-STA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	MWE=continua_a|MWEPOS=AUX
-12	a	a	SCONJ	PRP|@PRT-AUX<	_	14	mark	_	_
+11	continua	continuar	AUX	<aux>|V|PR|3S|IND|@FS-STA	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	_	MWE=continua_a|MWEPOS=AUX
+12	a	a	ADP	PRP|@PRT-AUX<	_	11	compound	_	_
 13	ser	ser	AUX	<aux>|V|INF|@ICL-AUX<	VerbForm=Inf	14	aux:pass	_	_
-14	corroído	corroer	VERB	<pass>|<mv>|V|PCP|M|S|@ICL-AUX<	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	11	xcomp	_	_
+14	corroído	corroer	VERB	<pass>|<mv>|V|PCP|M|S|@ICL-AUX<	Gender=Masc|Number=Sing|VerbForm=Part|Voice=Pass	0	root	_	_
 15-16	pela	_	_	_	_	_	_	_	_
 15	por	por	ADP	PRP|@PASS	_	17	case	_	_
 16	a	o	DET	<-sam>|<artd>|ART|F|S|@>N	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	_

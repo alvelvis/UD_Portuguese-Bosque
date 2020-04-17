@@ -10,7 +10,7 @@
 6	podem	poder	VERB	<aux>|V|PR|3P|IND|@FS-STA	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	_
 7	ser	ser	AUX	<aux>|V|INF|@ICL-AUX<	VerbForm=Inf	8	aux:pass	_	_
 8	criadas	criar	VERB	<pass>|<mv>|V|PCP|F|P|@ICL-AUX<	Gender=Fem|Number=Plur|VerbForm=Part|Voice=Pass	6	xcomp	_	_
-9	janelas	janela	NOUN	<first-cjt>|<np-idf>|N|F|P|@<SUBJ	Gender=Fem|Number=Plur	6	nsubj:pass	_	_
+9	janelas	janela	NOUN	<first-cjt>|<np-idf>|N|F|P|@<SUBJ	Gender=Fem|Number=Plur	8	nsubj:pass	_	_
 10-11	nos	_	_	_	_	_	_	_	_
 10	em	em	ADP	<sam->|PRP|@N<	_	12	case	_	_
 11	os	o	DET	<-sam>|<artd>|ART|M|P|@>N	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	12	det	_	_
@@ -112,7 +112,7 @@
 1	«	«	PUNCT	PU|@PU	_	4	punct	_	ChangedBy=Issue165|SpaceAfter=No
 2	É	ser	AUX	<mv>|V|PR|3S|IND|@FS-ACC>	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	ChangedBy=Issue167
 3	uma	um	DET	<arti>|ART|F|S|@>N	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
-4	solução	solução	NOUN	<np-idf>|N|F|S|@<SC	Gender=Fem|Number=Sing	10	parataxis	_	_
+4	solução	solução	NOUN	<np-idf>|N|F|S|@<SC	Gender=Fem|Number=Sing	10	ccomp:parataxis	_	_
 5	econômica	econômico	ADJ	<first-cjt>|ADJ|F|S|@N<	Gender=Fem|Number=Sing	4	amod	_	_
 6	e	e	CCONJ	<co-postnom>|KC|@CO	_	7	cc	_	d2d:#106
 7	segura	seguro	ADJ	<cjt>|ADJ|F|S|@N<	Gender=Fem|Number=Sing	5	conj	_	ChangedBy=Issue165|SpaceAfter=No
@@ -222,7 +222,7 @@
 6	tem	ter	AUX	<aux>|V|PR|3S|IND|@FS-ACC>	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	aux	_	_
 7	que	que	SCONJ	KS|@PRT-AUX<	_	9	mark	_	_
 8	ser	ser	AUX	<mv>|V|INF|@ICL-AUX<	VerbForm=Inf	9	cop	_	ChangedBy=Issue167
-9	prática	prático	ADJ	ADJ|F|S|@<SC	Gender=Fem|Number=Sing	19	parataxis	_	ChangedBy=Issue165|SpaceAfter=No
+9	prática	prático	ADJ	ADJ|F|S|@<SC	Gender=Fem|Number=Sing	19	ccomp:parataxis	_	ChangedBy=Issue165|SpaceAfter=No
 10	,	,	PUNCT	PU|@PU	_	9	punct	_	_
 11-12	ao	_	_	_	_	_	_	_	_
 11	a	a	ADP	<sam->|PRP|@N<	_	14	case	_	_

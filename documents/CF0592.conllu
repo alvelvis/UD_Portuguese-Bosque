@@ -64,10 +64,10 @@
 16	sistemáticas	sistemático	ADJ	ADJ|F|P|@N<	Gender=Fem|Number=Plur	15	amod	_	_
 17	de	de	ADP	PRP|@N<	_	18	case	_	_
 18	Sartre	Sartre	PROPN	<first-cjt>|PROP|M|S|@P<	Gender=Masc|Number=Sing	15	nmod	_	ChangedBy=Issue165|SpaceAfter=No
-19	,	,	PUNCT	PU|@PU	_	20	punct	_	_
-20	Marx	Marx	PROPN	PROP|M|S|@P<	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
-21	,	,	PUNCT	PU|@PU	_	22	punct	_	_
-22	Kafka	Kafka	PROPN	PROP|M|S|@P<	Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
+19	,	,	PUNCT	PU|@PU	_	12	punct	_	_
+20	Marx	Marx	PROPN	PROP|M|S|@P<	Gender=Masc|Number=Sing	18	nmod	_	ChangedBy=Issue165|SpaceAfter=No
+21	,	,	PUNCT	PU|@PU	_	12	punct	_	_
+22	Kafka	Kafka	PROPN	PROP|M|S|@P<	Gender=Masc|Number=Sing	18	nmod	_	ChangedBy=Issue165|SpaceAfter=No
 23	»	»	PUNCT	PU|@PU	_	15	punct	_	ChangedBy=Issue165|SpaceAfter=No
 24	.	.	PUNCT	PU|@PU	_	12	punct	_	_
 
@@ -162,7 +162,7 @@
 16	,	,	PUNCT	PU|@PU	_	19	punct	_	_
 17	como	como	ADP	<cjt>|<com>|PRP|@<ADVL	_	19	case	_	_
 18	as	o	DET	<artd>|ART|F|P|@>N	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	_
-19	colméias	colméia	NOUN	<first-cjt>|<np-def>|ADJ|F|P|@P<	Gender=Fem|Number=Plur	13	parataxis	_	ChangedBy=Issue165|SpaceAfter=No
+19	colméias	colméia	NOUN	<first-cjt>|<np-def>|ADJ|F|P|@P<	Gender=Fem|Number=Plur	13	appos:parataxis	_	ChangedBy=Issue165|SpaceAfter=No
 20	,	,	PUNCT	PU|@PU	_	22	punct	_	_
 21	os	o	DET	<artd>|ART|M|P|@>N	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	22	det	_	_
 22	formigueiros	formigueiro	NOUN	<np-def>|N|M|P|@P<	Gender=Masc|Number=Plur	19	conj	_	ChangedBy=Issue165|SpaceAfter=No
